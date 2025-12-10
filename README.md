@@ -6,7 +6,7 @@ Java Methods and Their Applications
 
 - [Description](#Description)
 - [Lab Activity Tasks](#Activity_Tasks)
-- [Sample Output](#Sample_Output)
+- [How to use](#How_to_Use)
 
 ## Description
 
@@ -39,37 +39,51 @@ Task 5: Prime Number Checker
 Create a method named isPrime(int n) that returns true if n is prime and false otherwise.
 -Ask the user for a number, call the method, and display the result.
 
-## Sample_Output
+## How_to_Use
 
-(Task 1 greetings)
-Hello, welcome to the Math program!
+Once the program starts, it follows a linear sequence of 5 Tasks. You cannot skip tasks; you must complete the input for one to move to the next.
 
-(Task 2 Basic Arithmetic Calculator)
-Enter two numbers
-Type Here: 16 <---(type any number)
-Type Here: 8 <----(type any number)
-Addition: 24 <----(16+8)
-Subtraction: 8 <----(16-8)
-Multiplication: 128 <----(16*8)
-Division: 2 <----(16/8)
+Task 1: Greeting
+Action: None.
 
-(Task 3  Factorial Using a Method)
-Enter a number for factorial: 8 <---(type any number)
-Factorial: 40320 <----(Displays the factorial of number 8)
+Output: The program will print Hello, welcome to the Math program!.
 
-(Task 4 Array Summation Method)
-The Sum of Array
-lets make 5 elements in array first <----(type the 5 elements in the array below as stated)
-Enter the elements 
-Type here: 21 <----(type the 1st element)
-Type here: 22 <----(type the 2nd element)
-Type here: 23 <----(type the 3rd element)
-Type here: 24 <----(type the 4th element) 
-Type here: 25 <----(type the 5th element)
-Sum of array elements: 115 <----(displays the sum of element incoded)
+Task 2: Basic Arithmetic
+The program will ask for two integers to perform addition, subtraction, multiplication, and division.
 
-(Task 5 Prime Number Checker)
-Prime number identifier <----(identifies if the number incoded if prime number or not)
-Now user pick any random number 
-type Here: 5 <---(type any number)
-The number 5 is a prime <----(Display)
+Prompt: Enter two numbers / Type Here:
+
+Input: Type an integer (e.g., 10) and press Enter.
+
+Prompt: Type Here:
+
+Input: Type a second integer (e.g., 5) and press Enter.
+
+Result: The program displays the calculated results for all four operations.
+
+Task 3: Factorial Calculation
+Prompt: Enter a number for factorial:
+
+Input: Type a small integer (e.g., 5) and press Enter.
+
+Note: Factorials grow very fast. Entering a number larger than 12 may result in incorrect values due to integer limits.
+
+Result: Displays the factorial (e.g., 5! = 120).
+
+Task 4: Sum of Array
+The program asks you to populate an array with 5 specific numbers, one by one.
+
+Prompt: The Sum of Arrray... Enter the elements
+
+Action: You will see Type here: appear 5 times.
+
+Input: Type a number and press Enter for each prompt.
+
+Result: After the 5th number, it calculates and prints the total sum.
+
+Task 5: Prime Number Checker
+Prompt: Prime number identifier... type Here:
+
+Input: Type any integer to check if it is Prime.
+
+Result: It will print if the number is "prime" or "not a prime".
